@@ -7,6 +7,7 @@ import Ejemplo1 from './hooks/Ejemplo1';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3'
 import Ejemplo4 from './hooks/Ejemplo4';
+import Greetingstyled from './components/pure/greetingStyled';
 
 function App() {
   return (
@@ -23,12 +24,13 @@ function App() {
         {/* <Ejemplo1></Ejemplo1> */}
         {/* <Ejemplo2></Ejemplo2> */}
         {/* <MiComponenteConContexto></MiComponenteConContexto> */}
-        <Ejemplo4 nombre="Martín">
-          {/* Todo loq ue hay aquí, es tratado como props.children */}
+        {/* Todo loq ue hay aquí, es tratado como props.children */}
+        {/* <Ejemplo4 nombre="Martín">
           <h3>
             Contenido del props.children
           </h3>
-        </Ejemplo4>
+        </Ejemplo4> */}
+        <Greetingstyled name="Martín"></Greetingstyled>
       </header>
     </div>
   );
