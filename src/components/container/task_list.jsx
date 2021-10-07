@@ -68,10 +68,7 @@ const TaskListComponent = () => {
                     </div>
                     <Taskform></Taskform>
                 </div>
-
             </div>
-           
-            {/* <TaskComponent task={defaultTask}></TaskComponent> */}
         </div>
     );
 };
