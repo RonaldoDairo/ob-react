@@ -9,6 +9,7 @@ import MiComponenteConContexto from './hooks/Ejemplo3'
 import Ejemplo4 from './hooks/Ejemplo4';
 import Greetingstyled from './components/pure/greetingStyled';
 import Father from './components/container/father';
+import Optionalrender from './components/pure/optionalRender';
 
 function App() {
   return (
@@ -35,8 +36,11 @@ function App() {
       {/* </header> */}
       {/* Gestión de eventos */}
       {/* <Father></Father> */}
+      {/* Ejemplos de Renderizado condicional */}
+      <Optionalrender></Optionalrender>
+
       {/* PROYECTO FINAL */}
-      <TaskListComponent></TaskListComponent>
+      {/* <TaskListComponent></TaskListComponent> */}
     </div>
   );
 }
