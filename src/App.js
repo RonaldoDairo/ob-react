@@ -10,6 +10,8 @@ import Ejemplo4 from './hooks/Ejemplo4';
 import Greetingstyled from './components/pure/greetingStyled';
 import Father from './components/container/father';
 import Optionalrender from './components/pure/optionalRender';
+import Loginformik from './components/pure/forms/loginFormik';
+import Registerformik from './components/pure/forms/registerFormik';
 
 function App() {
   return (
@@ -36,8 +38,13 @@ function App() {
       {/* </header> */}
       {/* Gestión de eventos */}
       {/* <Father></Father> */}
+
       {/* Ejemplos de Renderizado condicional */}
-      <Optionalrender></Optionalrender>
+      {/* <Optionalrender></Optionalrender> */}
+
+      {/* Ejemplos de uso de Formik y Yup */}
+      {/* <Loginformik></Loginformik> */}
+      <Registerformik></Registerformik>
 
       {/* PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent> */}
