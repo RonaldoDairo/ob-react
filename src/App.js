@@ -44,7 +44,7 @@ function App() {
 
       {/* Ejemplos de uso de Formik y Yup */}
       {/* <Loginformik></Loginformik> */}
-      <Registerformik></Registerformik>
+      {/* <Registerformik></Registerformik> */}
 
       {/* PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent> */}
