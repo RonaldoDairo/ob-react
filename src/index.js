@@ -10,11 +10,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppRoutingOne from './AppRoutingOne';
+import AppRoutingFinal from './AppRoutingFinal';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <AppRoutingOne />
+    {/* <AppRoutingOne /> */}
+    <AppRoutingFinal />
   </React.StrictMode>,
   document.getElementById('root')
 );
